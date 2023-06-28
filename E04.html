@@ -7,11 +7,29 @@
     //Se o usuário for "Programador" e trabalhar mais que 8 horas diárias, o programa deverá calcular um adicional de 30% (30/100) na sua remuneração. Apresente também quanto recebe por hora, já com o adicional previsto.
 
     //ENTRADA
+const remuneração = Number(prompt("informe seu salario"));
+const cargo= prompt("informe qual cargo voce ocupa");
+const hora = NUmber(prompt("informe quantas horas voce trabalha por dia"));
 
-
+const cargo1 = estagiario;
+const cargo2 = programador;
     //PROCESSAMENTO
+if (cargo1 === "6"){
 
+    alert (`voce recebe ${remuneração} por hora.`);
 
+}
+else if (cargo1 + horas > 6){
+    alert (`precisa ser contratado, ${cargo1 + remuneração +  50/100}`);
+}
+if (cargo2 === "8"){
+
+alert (`voce recebe ${remuneração} por hora.`);
+
+}
+else if (cargo1 + horas > 6){
+alert (`precisa ser contratado, ${cargo2 + remuneração +  30/100}`);
+}
     //SAÍDA
 
 </script>
